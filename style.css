@@ -12,6 +12,7 @@ body{
     flex-direction: column;
     justify-content: center;
     place-content: center;
+    overflow-x: hidden;
 }
 header{
     margin: 2rem;
@@ -269,8 +270,8 @@ main .section-2 .service{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 5rem;
-    margin-top: 10rem;
+    gap: 4rem;
+    margin-top: 8rem;
 }
 .recent p{
     font-size: 3rem;
@@ -285,7 +286,6 @@ main .section-2 .service{
     align-items: center;
     background-color: rgb(255, 203, 126);
     border: none;
-    margin-top: 2rem;
     border-radius: 10px;
 }
 .recent button a{
@@ -304,8 +304,8 @@ main .section-3{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 10rem;
-    margin-top: 10rem;
+    gap: 8rem;
+    margin-top: 7rem;
 }
 main .section-3 img{
     height: 450px;
@@ -345,7 +345,7 @@ main .section-3 .googleapis{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 16rem;
+    margin-top: 6rem;
     margin-bottom: 4rem;
     font-size: 2.5rem;
     font-weight: bold;
