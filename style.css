@@ -537,7 +537,7 @@ footer .img{
         margin: 2rem;
         display: flex;
         gap: 35rem;
-        margin-left: 18rem;
+
     }
     header div{
         font-weight: bold;
@@ -553,14 +553,15 @@ footer .img{
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        gap: 2rem;  
-        font-size: 1.1rem;
+        gap: 1rem;  
+        font-size: 1rem;
     }
     header nav ul li{
         list-style: none;
         justify-content: center;
         align-items: center;
         border-top: none;
+        text-wrap: nowrap;
     }
     header nav ul li a{
         text-decoration: none;
