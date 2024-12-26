@@ -532,12 +532,14 @@ footer .img{
         background-color: rgb(240, 240, 240);
         margin-top: 0;
         margin-bottom: 2rem;
+        margin-left: 5rem;
     }
     header{
         margin: 2rem;
         display: flex;
         gap: 35rem;
         margin-left: 25rem;
+        border: 3px solid blue;
     }
     header div{
         font-weight: bold;
