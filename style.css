@@ -550,6 +550,7 @@ footer .img{
     }
     header nav ul{
         display: flex;
+        flex-direction: row;
         justify-content: center;
         align-items: center;
         gap: 2rem;  
@@ -559,10 +560,24 @@ footer .img{
         list-style: none;
         justify-content: center;
         align-items: center;
+        border-top: none;
     }
     header nav ul li a{
         text-decoration: none;
         color: black;
+    }
+    nav{
+        display: flex;
+        flex-direction: row;
+        border-top: none;
+    }
+    .menu-button{
+        display: none;
+    }
+    .menu-icon,
+    .menu-icon::before,
+    .menu-icon::after{
+        display: none;
     }
     
     
