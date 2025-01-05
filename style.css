@@ -137,6 +137,8 @@ main{
 
 main .section-1{
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 1rem;
     margin-left: 2rem; 
     margin-bottom: 1.5rem; 
@@ -311,7 +313,7 @@ main .section-3{
     margin-top: 2rem;
 }
 main .section-3 img{
-    height: 450px;
+    height: 400px;
     width: 350px;
     border-top-left-radius:2rem ;
     border-bottom-left-radius:2rem;
@@ -407,7 +409,7 @@ main .section-5{
     flex-wrap: wrap;
     margin-top: 2.5rem;
     background-color: rgb(255, 203, 126);
-    padding: 3rem;
+    padding: 1.5rem;
     border-radius: 2rem;
     gap: 1rem;
     margin-bottom: 2.5rem;
@@ -539,6 +541,7 @@ footer .img{
         margin: 2rem;
         display: flex;
         gap: 35rem;
+        margin-bottom: 0;
 
     }
     header div{
@@ -602,9 +605,9 @@ footer .img{
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        gap: 13rem;
+        gap: 12rem;
         margin: 3rem; 
-        margin-bottom: 12rem; 
+        margin-bottom: 7rem; 
     }
     main .section-1 .intro{
         font-size: 3rem;
@@ -729,8 +732,8 @@ footer .img{
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        gap: 30rem;
-        margin-top: 3rem;
+        gap: 28rem;
+        margin-top: 1.5rem;
     }
     .recent p{
         font-size: 3rem;
@@ -765,12 +768,12 @@ footer .img{
         align-items: center;
         flex-direction: row;
         gap: 3rem;
-        margin-top: 10rem;
-        margin-bottom: 10rem;
+        margin-top: 4rem;
+        margin-bottom: 3rem;
     }
     main .section-3 img{
-        height: 800px;
-        width: 450px;
+        height: 450px;
+        width: 400px;
         border-top-left-radius:2rem ;
         border-bottom-left-radius:2rem;
     }
@@ -800,8 +803,8 @@ footer .img{
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-top: 6rem;
-        margin-bottom: 10rem;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
         font-size: 3rem;
         font-weight: bold;
     }
@@ -819,7 +822,7 @@ footer .img{
         flex-direction: row;
         gap: 3rem;
         width: 30%; 
-        margin-bottom: 5rem;
+        margin-bottom: 2rem;
     }
     main .section-4 img{
         width: 200px;
@@ -855,12 +858,12 @@ footer .img{
         justify-content: center;
         align-items: center;
         flex-direction: row;
-        margin-top: 6rem;
+        margin-top: 3rem;
         background-color: rgb(255, 203, 126);
         padding: 2rem;
         border-radius: 2rem;
         gap: 25rem;
-        margin-bottom: 6rem;
+        margin-bottom: 2rem;
     }
     main .section-5 p{
         font-size: 1.7rem;
@@ -890,8 +893,8 @@ footer .img{
 
 
     .logo-img{
-        margin-top: 5rem;
-        margin-bottom: 5rem;
+        margin-top: 3rem;
+        margin-bottom: 2rem;
         width: 700px;
     }
     
@@ -907,8 +910,8 @@ footer .img{
         background-color: black;
         width: 100%;
         margin: 0;
-        margin-top: 6rem;
-        margin-bottom: 6rem;
+        margin-top: 4rem;
+        margin-bottom: 4rem;
     }
     main .section-6 .sec-6-head{
         color: white;
@@ -933,7 +936,7 @@ footer .img{
         width: 27rem;
         height: 27rem;
         padding: 2rem;
-        margin: 3rem;
+        margin: 1.5rem;
         border-top-left-radius: 3rem;
         border-bottom-left-radius:3rem ;
         border-bottom-right-radius:3rem ;
@@ -957,7 +960,7 @@ footer .img{
     
     footer div{
         display: flex;
-        gap: 15rem;
+        gap: 10rem;
         font-size: 1rem;
         margin: 0;
         margin-bottom: 1rem;
@@ -978,3 +981,5 @@ footer .img{
         border-radius: 50%;
     }
 }
+
+
