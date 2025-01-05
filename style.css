@@ -227,7 +227,6 @@ main .section-2 .sec2-img{
     width: 300px;
     height: 400px;
     border-radius: 4rem;
-    margin-top: 1rem;
 }
 main .section-2 .head-text{
     display: flex;
@@ -258,7 +257,7 @@ main .section-2 .glad{
 }
 main .section-2 .service{
     font-size: 1rem;
-    line-height: 2.5rem;
+    line-height: 1.5rem;
     margin-bottom: 2rem;
     margin-top: 1rem;
     text-align: center;
