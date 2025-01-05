@@ -1,8 +1,7 @@
   const burger = document.querySelector(".burger");
   const nav = document.querySelector("nav");
-  nav.addEventListener("click", reload = ()=> {
-   nav.style.display = "block";
+  const navMenu = document.querySelector(".menu-icon");
+  navMenu.addEventListener("click", reload = ()=> {
+   return location.reload();
 });
-  burger.addEventListener("click", reload = ()=> {
-     location.reload();
-  });
+document.cookie;

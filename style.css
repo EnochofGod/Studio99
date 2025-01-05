@@ -51,19 +51,19 @@ header{
 .menu-icon::after{
      transform: translate(-20px, 12px);
 }
-:is(.burger:hover, .burger:focus-within) 
+:is(.burger:target, .burger:focus-within) 
 .menu-icon{
     background-color: transparent;
 }
-:is(.burger:hover, .burger:focus-within)
+:is(.burger:target, .burger:focus-within)
 .menu-icon::before{
     transform: translateX(-20px) rotate(45deg);
 }
-:is(.burger:hover, div:focus-within)
+:is(.burger:target, div:focus-within)
 .menu-icon::after{
     transform: translateX(-20px) rotate(-45deg);
 }
-:is(.burger:hover, .burger:focus-within)
+:is(.burger:target, .burger:focus-within)
 nav{
     display: block;
 }
@@ -104,8 +104,8 @@ nav a{
     font-weight: bold;
     text-decoration: none;
 }
-nav a:hover,
-nav a:focus{
+nav a:focus,
+nav a:target{
     transform: scale(1.2);
     transition: all 0.3s;
 }
